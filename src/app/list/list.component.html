@@ -1,0 +1,12 @@
+<div class="container list">
+<ul class="list-group container list-inline">
+    <li *ngFor="let item of todos; let i = index;" class="list-group-item list-group-item-danger list-inline-item" style="height: 50px; max-width: 50em; padding-left: 50px">
+        
+        <div class="text">{{item.task}}</div>
+        <div class="btn-group float-right float-top btn-group-sm" role="group" aria-label="Basic example" style="bottom: 150%">
+        <button type="reset" class="complete btn btn-secondary btn-danger" (click)="complete(i)">{{ !item.completed ? 'Complete' : 'Undo'}}</button>
+        <button class="delete btn btn-secondary btn-warning" (click)="delete(i)"><i class="material-icons">delete</i></button>
+        </div>       
+    </li>
+</ul>
+</div>

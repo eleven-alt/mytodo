@@ -1,0 +1,17 @@
+<section class="Todo App">
+  <header>
+  <div class="header container">
+    <h1 class="logo">To-Do App</h1>
+  </div><br><br><br>
+  <form class="container">
+  <div class="form-group">
+  <div class="input-group-prepend" style=" height: 50px;"> 
+    <input type="text"  [(ngModel)]="todo.task" class="form-control" placeholder="Add Todo" name="todo" style="height: 50px; width: 500%;">
+    <span  (click)="addItem()" class="input-group-text" ><i class="material-icons">add</i></span>
+  </div>
+  </div> 
+  </form>
+  </header>
+  </section>>
+
+<app-list></app-list>

@@ -1,0 +1,20 @@
+.header{
+    overflow: hidden;
+  background-color: #DAE0E2;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+form{ 
+  max-width: 30em; margin: 1em auto;
+}

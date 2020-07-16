@@ -1,0 +1,22 @@
+.box{
+    text-align: center;
+    display: inline;
+}
+
+form{ 
+    max-width: 25em; margin: 1em auto;
+  }
+.text{
+    font-size: 20px;
+}
+
+.button{
+    margin-bottom: 100px;
+    padding-bottom: 1000px;
+    position: relative;
+}
+
+.list{
+    float: center;
+    padding-left: 165px;
+}
